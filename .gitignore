@@ -1,0 +1,8 @@
+.env
+**/.dart_tool/
+**/build/
+**/.packages
+*.log
+**/node_modules/
+**/coverage/
+**/.npm-cache/

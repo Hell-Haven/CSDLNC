@@ -1,0 +1,18 @@
+{
+  "books": [
+    {"bookCode":"B001","title":"Cơ sở dữ liệu MongoDB","authors":["Nhóm nghiên cứu CSDL"],"category":"Công nghệ thông tin","publisher":{"name":"NXB Giáo dục","year":2024},"publishedYear":2024,"totalCopies":12,"availableCopies":12,"status":"ACTIVE"},
+    {"bookCode":"B002","title":"Lập trình Java căn bản","authors":["Nguyễn Văn A","Trần Thị B"],"category":"Công nghệ thông tin","publisher":{"name":"NXB Đại học Quốc gia","year":2023},"publishedYear":2023,"totalCopies":8,"availableCopies":8,"status":"ACTIVE"},
+    {"bookCode":"B003","title":"Flutter & Dart thực hành","authors":["Nhóm phát triển ứng dụng"],"category":"Công nghệ thông tin","publisher":{"name":"NXB Thanh niên","year":2025},"publishedYear":2025,"totalCopies":10,"availableCopies":10,"status":"ACTIVE"},
+    {"bookCode":"B004","title":"Nhập môn trí tuệ nhân tạo","authors":["Lê Minh Khoa"],"category":"Công nghệ thông tin","publisher":{"name":"NXB Khoa học và Kỹ thuật","year":2024},"publishedYear":2024,"totalCopies":6,"availableCopies":6,"status":"ACTIVE"},
+    {"bookCode":"B005","title":"Tư duy thiết kế","authors":["Trần An"],"category":"Kỹ năng","publisher":{"name":"NXB Trẻ","year":2022},"publishedYear":2022,"totalCopies":5,"availableCopies":5,"status":"ACTIVE"},
+    {"bookCode":"B006","title":"Dế Mèn phiêu lưu ký","authors":["Tô Hoài"],"category":"Văn học","publisher":{"name":"NXB Kim Đồng","year":2020},"publishedYear":2020,"totalCopies":15,"availableCopies":15,"status":"ACTIVE"},
+    {"bookCode":"B007","title":"Đại số tuyến tính","authors":["Phạm Quốc Bình"],"category":"Khoa học","publisher":{"name":"NXB Giáo dục","year":2021},"publishedYear":2021,"totalCopies":7,"availableCopies":7,"status":"ACTIVE"},
+    {"bookCode":"B008","title":"Hệ quản trị SQL Server","authors":["Nguyễn Hoàng Nam"],"category":"Công nghệ thông tin","publisher":{"name":"NXB Thông tin và Truyền thông","year":2024},"publishedYear":2024,"totalCopies":9,"availableCopies":9,"status":"ACTIVE"}
+  ],
+  "readers": [
+    {"readerId":"R001","fullName":"Võ Công Trí","email":"tri@example.com","phone":"0901000001","address":"TP. Hồ Chí Minh","registeredAt":"2026-10-01T00:00:00Z","status":"ACTIVE"},
+    {"readerId":"R002","fullName":"Nguyễn Văn Hồng","email":"hong@example.com","phone":"0901000002","address":"TP. Hồ Chí Minh","registeredAt":"2026-10-02T00:00:00Z","status":"ACTIVE"}
+  ],
+  "staff": [{"staffId":"S001","fullName":"Thủ thư mẫu","email":"library@example.com","role":"LIBRARIAN","status":"ACTIVE"}],
+  "loans": []
+}

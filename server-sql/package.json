@@ -1,0 +1,16 @@
+{
+  "name": "library-server-sql",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=20.20.0" },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "setup": "node src/setup.js",
+    "check": "node --check src/server.js && node --check src/store.js && node --check src/queries.js && node --check src/config.js && node --check src/setup.js",
+    "test": "node --test",
+    "test:integration": "node --test test/integration.test.js"
+  },
+  "dependencies": { "mssql": "^12.2.0", "msnodesqlv8": "4.5.0" }
+}
